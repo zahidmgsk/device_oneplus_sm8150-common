@@ -162,8 +162,9 @@ public class KeyHandler implements DeviceKeyHandler {
     }
 
     private void launchCamera() {
-        //wakeUp();
-        // TODO
+        wakeUp();
+        mContext.sendBroadcastAsUser(new Intent(Intent.ACTION_SCREEN_CAMERA_GESTURE),
+            CURRENT, STATUS_BAR_SERVICE);
     }
 
     private void launchBrowser() {
