@@ -327,9 +327,6 @@ vendor/lib64/libssd.so|4a30f8df82c6fc816391e6a2858000e220c1e8cb
 vendor/lib64/libtzdrmgenprov.so|f533462498968c4d8539abf9ba60107ba2530be6
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so|84e38997eb849e16f076d2071e5b3eceda167d1e
 
-# Dax - 7T modified to work with Moto Dolby
-vendor/etc/dolby/dax-default.xml|de2be9e271684fc0493eb67b6dcb03d0100c409e
-
 # Dolby - from sofiap_ao_eea-user-11-RPR31.Q4U-20-26-2-a10bb-release-keys
 -system/app/MotoDolbyV3/MotoDolbyV3.apk|574fa2a08b435824076ca60e66d42c950e82e296
 -system_ext/priv-app/daxService/daxService.apk|d670c6b3221ea3cdf84c41e1062c348a186598ef
